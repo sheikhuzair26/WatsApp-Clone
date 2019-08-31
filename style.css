@@ -1,0 +1,115 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    flex-direction: row;
+    display: flex;
+    justify-content: center;
+    font-family: 'Pontano Sans', sans-serif;
+}
+
+ul {
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+}
+
+li.messages {
+    margin-bottom: 0px;
+    border: 1px solid lightcyan;
+    padding: 1px 15px;
+    list-style: none;
+}
+
+.Pic img {
+    height: 60px;
+    border-radius: 90%;
+    width: 64px;
+    padding: 1px;
+}
+
+#container {
+    display: flex;
+    flex-direction: row;
+}
+
+.time {
+    font-size: 7px;
+    font-weight: bold;
+    margin: 4px;
+    display: flex;
+    flex-direction: row-reverse;
+    color: gray;
+}
+
+p {
+    font-size: 11px;
+}
+
+.Pic {
+    display: flex;
+}
+
+.info {
+    margin-left: 2em;
+    padding: 0px 10px;
+    width: -webkit-fill-available;
+}
+
+.basicInfoContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.numb {
+    justify-content: center;
+    background-color: darkgreen;
+    width: 19px;
+    align-items: center;
+    display: flex;
+    height: 19px;
+    border-radius: 100%;
+    color: white;
+    font-size: 11px;
+}
+
+.line {
+    font-size: 14px;
+    padding-top: 5px;
+}
+
+.number, .line {
+    margin-top: 0px;
+}
+
+li {
+    list-style-type: none;
+}
+
+.userName {
+    margin-bottom: 0px;
+    font-size: 15px;
+}
+
+.messege {
+    background-color: azure;
+    border: 1px solid snow;
+}
+
+.messege2 {
+    background: transparent;
+    border: 1px solid beige;
+}
+
+.messege, .messege2 {
+    margin: 0px -15px;
+    padding: 5px;
+    transition: 1s;
+}
+
+.messege:hover, .messege2:hover {
+    background-color: #eee;
+}
